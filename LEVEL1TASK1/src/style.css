@@ -16,7 +16,7 @@ html {
 #navbar {
     width: 100%;
     height: fit-content;
-    padding: 2rem 5rem;
+    padding: 2rem 10rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,7 +25,7 @@ html {
 }
 
 .nav_logo>h1 {
-    font-size: 1rem;
+    font-size: 2rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 900;
     color: #202342;
@@ -35,9 +35,9 @@ html {
     text-decoration: none;
     color: #FCF6E8;
     background-color: #373737;
-    padding: 0.5rem 1rem;
+    padding: 1rem 2rem;
     border-radius: 5px;
-    font-size: 0.5rem;
+    font-size: 1rem;
     letter-spacing: 1px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -54,35 +54,38 @@ html {
 .hometext {
     width: 50%;
     height: fit-content;
+    display: flex;
+    flex-direction: column;
 }
 
 .hometext>h1 {
-    font-size: 3rem;
+    font-size: 5rem;
     margin: 1.5rem 0rem;
-    line-height: 3rem;
+    line-height: 5rem;
 }
 
 .hometext>p {
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: #7A7987;
-    margin-bottom: 1.5rem;
 }
 
 .hometext>a {
+    width: fit-content;
     background-color: #FEC447;
-    padding: 0.5rem;
+    padding: 1rem;
     border: 1px solid #7A7987;
     border-radius: 5px;
     text-decoration: none;
     color: #202342;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 600;
     box-shadow: 4px 4px;
+    margin-top: 2rem;
 }
 
 .homeimg {
     width: 50%;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,16 +114,20 @@ html {
     text-align: center;
     margin-top: 3rem;
 }
+.aboutus-1-title > h1{
+    font-size: 3.5rem;
+    line-height: 3rem;
+}
 
 .aboutus-1-title>p {
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: #7A7987;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 .aboutus-1-cards {
     width: 100%;
-    height: 70%;
+    height: fit-content;
     padding: 0rem 1rem;
     display: flex;
     align-items: center;
@@ -139,16 +146,16 @@ html {
     height: fit-content;
     background-color: #FCF6E8;
     border-radius: 50%;
-    padding: .8rem ;
+    padding: 1.5rem ;
     border: 1px solid #202342;
 }
 .aboutus-1-cards > .box > h2{
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 900;
     margin: .5rem 0rem;
 }
 .aboutus-1-cards > .box > p{
-    font-size: .5rem;
+    font-size: 1rem;
     font-weight: 600;
     margin: .5rem 0rem;
     color: #7a7987cb;
@@ -202,20 +209,21 @@ html {
 .aboutus-2-info > h1{
     color: #FFFFFF;
     margin-bottom: .5rem;
-    font-size: 2.5rem;
+    font-size: 5.5rem;
 }
 .span{
     font-weight: bold;
-    font-size: 35px;
+    font-size: 5rem;
     margin-right: .9rem;
     color: #202342;
 }
 .aboutus-2-info > div > div > h1{
     color: #202342;
+    font-size: 2.5rem;
 }
 .aboutus-2-info > div > p{
-    color:#333044;
-    font-size: .7rem;
+    color:#7A7987;
+    font-size: 1rem;
 }
 #project{
     height: fit-content;
@@ -230,11 +238,12 @@ html {
     padding: 2rem 5rem;
 }
 .project-info-title{
+    font-size: 1.5rem;
     width: 50%;
     height: 100%;
 }
 .project-info-title > p{
-    font-size: .7rem;
+    font-size: 1rem;
     font-weight: 600;
     margin: .5rem 0rem;
     color: #7a7987cb;
@@ -262,7 +271,7 @@ html {
     height: fit-content;
 }
 .webdesign-info > p{
-    font-size: .7rem;
+    font-size: 1rem;
     font-weight: 600;
     margin: .5rem 0rem;
     color: #7a7987cb;
@@ -270,7 +279,7 @@ html {
 .webdesign-info > h1{
     color: #202342;
     margin-bottom: .5rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 .title-logo{
     display: inline-block;
@@ -283,7 +292,8 @@ html {
 }
 .webdesign-info-btn{
     display: inline-block;
-    padding: .2rem 1rem;
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
     border: 1px solid #202342;
     border-radius: 50px;
     transition: all 1ms ease-in-out;
@@ -327,7 +337,7 @@ html {
     padding: 0rem 4rem;
 }
 .development-info > p{
-    font-size: .7rem;
+    font-size: 1rem;
     font-weight: 600;
     margin: .5rem 0rem;
     color: #7a7987cb;
@@ -335,7 +345,7 @@ html {
 .development-info > h1{
     color: #202342;
     margin-bottom: .5rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 .development-info-btn{
     display: inline-block;
@@ -361,7 +371,7 @@ html {
     height: fit-content;
 }
 .ecommerce-info > p{
-    font-size: .7rem;
+    font-size: 1rem;
     font-weight: 600;
     margin: .5rem 0rem;
     color: #7a7987cb;
@@ -369,7 +379,7 @@ html {
 .ecommerce-info > h1{
     color: #202342;
     margin-bottom: .5rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 .ecommerce-info-btn{
     display: inline-block;
@@ -401,14 +411,13 @@ html {
     
 }
 .project-btn > a{
-
     background-color: #FEC447;
-    padding: 0.5rem;
+    padding: 1rem;
     border: 1px solid #7A7987;
     border-radius: 5px;
     text-decoration: none;
     color: #202342;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 600;
     box-shadow: 4px 4px;  
 }
@@ -421,7 +430,7 @@ html {
   }
   #contact h1 {
     text-align: left;
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: 300;
     font-family: "Noto Serif Display";
   }
@@ -435,7 +444,7 @@ html {
     padding: 0rem 2rem 0rem 0rem;
   }
   .contact-section h4 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     line-break: auto;
     color: #7A7987;
     text-align: left;
@@ -453,7 +462,7 @@ html {
     align-items: center;
   }
   .contact-details h2 {
-    font-size: 1rem;
+    font-size: 1.8rem;
     font-weight: 400;
     font-family: "Roboto";
     text-decoration: none;
@@ -463,9 +472,9 @@ html {
     text-decoration: none;
     color: #FCF6E8;
     background-color: #373737;
-    padding: 0.5rem 1rem;
+    padding: 1rem 2rem;
     border-radius: 5px;
-    font-size: 0.5rem;
+    font-size: 1rem;
     letter-spacing: 1px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -484,7 +493,7 @@ html {
   }
   #footer h3 {
     font-family: "Roboto";
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 300;
     color: #262626;
   }
